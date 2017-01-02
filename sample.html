@@ -2,7 +2,8 @@
 <html>
 <head>
 	<!-- <script src="sample.js"></script> -->
-	<script src="sample2.js" ></script>
+	<!-- <script src="sample2.js" ></script> -->
+	<script src="sample3.js" ></script>
 	<link rel="stylesheet" href="sample.css">
 </head>
 <body>
@@ -10,12 +11,14 @@
 
 		<div class="form">
 			<div id="registration-form">
-				<input type="text" name="name" placeholder="Your Name">
-				<input type="number" name="Age" placeholder="Your Age">
-				<input type="submit" name="Register">
+				<form id="registration" method="post">
+				<input type="text" name="name" placeholder="Your Name" required="true">
+				<input type="number" name="Age" placeholder="Your Age" required="true">
+					<input type="submit" name="Register">
+				</form>
 			</div>
 			<div id="grocery"> 
-
+              
 			</div>
 			<div id="payment">
 			</div>
